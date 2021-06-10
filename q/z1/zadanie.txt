@@ -1,0 +1,29 @@
+
+  ZADANIE 01
+
+  No to zaczynamy. :) Zgodnie z obietnicą pierwsze zadanie nie jest szczególnie skomplikowane - polega na wykonaniu ataku typu brute force na 
+dość prostą funkcję haszującą krótkie hasła (jej wynikiem jest 32-bitowa liczba całkowita bez znaku).
+
+  Do obliczeń wykorzystywany jest roboczy hasz, 8-bitowy "klucz" (liczba całkowita bez znaku) oraz kody ASCII kolejnych znaków hasła 
+(hasz oraz klucz mają zerowe wartości początkowe). Funkcja wykonuje 64 rundy, których przebieg (w pseudokodzie) wygląda następująco:
+
+  dla każdego znaku w haśle (od lewej do prawej) wykonaj
+      jeżeli suma hasza, klucza i kodu znaku jest parzysta, to
+          oblicz wartość funkcji XOR kodu znaku i liczby 170
+          oblicz resztę z dzielenia sumy hasza i klucza przez 25
+          przesuń bitowo wynik pierwszej operacji (XOR) w lewo o wynik drugiej (reszta)
+          oblicz nowy hasz, wykonując operację XOR obecnego hasza i otrzymanej wartości
+          oblicz nowy klucz, dodając do obecnego wartość funkcji XOR kodu znaku i liczby 85
+      w przeciwnym razie (nieparzysta suma)
+          te same operacje, jedynie wartości 170 i 85 są zamienione miejscami
+
+  Poniżej hasze trzech haseł składających się wyłącznie z małych liter alfabetu łacińskiego oraz cyfr - celem jest oczywiście ich złamanie. 
+Gwarantuję, że hasła nie są szczególnie długie (zadanie jest do wykonania w rozsądnym czasie).
+
+  558520349
+  699029328
+  572763630
+
+  Do celów kontrolnych - hasz dla hasła "haslo" wynosi 704977991.
+
+  Powodzenia. :)

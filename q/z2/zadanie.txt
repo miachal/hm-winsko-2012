@@ -1,0 +1,13 @@
+
+  ZADANIE 02
+
+  Celem zadania jest odczytanie "przechwyconego" szyfrogramu. Wiadomo, że przesyłana wiadomość to tekst w języku angielskim, 
+składający się wyłącznie z liter alfabetu łacińskiego (małych i wielkich), przecinków, kropek oraz spacji. Wiadomo też, 
+że wykorzystany został szyfr strumieniowy, wykonujący jedynie operacje XOR na kolejnych bitach tekstu jawnego oraz 64-bitowego 
+klucza (wykorzystywanego cyklicznie).
+
+  Plik z szyfrogramem znajduje się w załączniku (wiadomość to w rzeczywistości fragment tekstu pochodzący z Wikipedii).
+
+  Za poprawną odpowiedź uznaję podanie odszyfrowanego tekstu jawnego.
+
+  Powodzenia. :)

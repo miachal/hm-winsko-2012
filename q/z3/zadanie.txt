@@ -1,0 +1,13 @@
+
+  ZADANIE 03
+
+  Podobnie jak w poprzednim zadaniu, celem jest odczytanie szyfrogramu. Wiadomo, że przesyłana wiadomość to tekst w języku angielskim, 
+składający się wyłącznie z liter alfabetu łacińskiego (małych i wielkich), przecinków, kropek oraz spacji. Tym razem wykorzystany został 
+szyfr blokowy operujący na 16-bitowych blokach, wykonujący jedynie operacje przestawienia (zamiany miejscami) bitów (każdy z bloków jest 
+szyfrowany osobno, w identyczny sposób).
+
+  Plik z szyfrogramem znajduje się w załączniku (wiadomość to w rzeczywistości fragment tekstu pochodzący z Wikipedii).
+
+  Za poprawną odpowiedź uznaję podanie odszyfrowanego tekstu jawnego.
+
+  Powodzenia. :)
